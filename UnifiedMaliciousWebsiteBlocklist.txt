@@ -3,7 +3,7 @@
 ! Expires: 2 days
 ! Description: A unified version of every antimalware list from my repository
 ! Last modified: 23 December 2022
-! License: httpswww.gnu.orglicensesgpl-3.0.html
+! License: https://www.gnu.orglicensesgpl-3.0.html
 ! Copyright © 2022 Radplay
 
 !#include AndroidAntimalware.txt
