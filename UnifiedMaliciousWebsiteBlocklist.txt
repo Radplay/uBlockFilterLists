@@ -1,4 +1,4 @@
-! Title ⛔ Radplay's unified malicious website blocklist
+! Title ⛔ Unified malicious website blocklist
 ! Version 20221102
 ! Expires 2 days
 ! Description A unified version of every antimalware list from my repository
