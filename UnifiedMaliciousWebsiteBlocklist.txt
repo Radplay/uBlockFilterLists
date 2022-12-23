@@ -8,4 +8,4 @@
 ! Copyright © 2022 Radplay
 
 !#include AndroidAntimalware.txt
-!#include MinecraftMalwareBlocker.txt
+!#include MinecraftAntimalware.txt
