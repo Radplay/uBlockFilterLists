@@ -1,9 +1,9 @@
 ! Title ⛔ Unified malicious website blocklist
-! Version 20221102
+! Version 20221223
 ! Expires 2 days
 ! Description A unified version of every antimalware list from my repository
 ! Homepage: https://github.com/Radplay/uBlockFilterLists
-! Last modified 02 November 2022
+! Last modified 23 December 2022
 ! License httpswww.gnu.orglicensesgpl-3.0.html
 ! Copyright © 2022 Radplay
 
