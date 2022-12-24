@@ -1,0 +1,19 @@
+! Title: ▶️ YouTube Cleanup
+! Version: 20221223
+! Expires: 7 days
+! Description: List of filters that clean up the YouTube website
+! Last modified: 24 December 2022
+! License: https://www.gnu.org/licenses/gpl-3.0.html
+! Copyright © 2022 Radplay
+
+! Remove the header from the top of the website
+www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
+
+! Remove the voice search button
+www.youtube.com###voice-search-button > .ytd-masthead.style-scope
+
+! Remove "Discover"
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
+
+! Remove "More from YouTube"
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
