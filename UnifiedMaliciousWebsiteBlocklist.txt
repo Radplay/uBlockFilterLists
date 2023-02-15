@@ -1,8 +1,8 @@
 ! Title: ⛔ Unified malicious website blocklist
-! Version: 20230115
+! Version: 20230215
 ! Expires: 7 days
 ! Description: A unified version of every antimalware list from my repository
-! Last modified: 15 January 2023
+! Last modified: 15 February 2023
 ! License: https://www.gnu.org/licenses/gpl-3.0.html
 ! Copyright © 2023 Radplay
 
