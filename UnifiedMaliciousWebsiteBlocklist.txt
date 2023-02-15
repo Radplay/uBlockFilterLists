@@ -8,3 +8,4 @@
 
 !#include AndroidAntimalware.txt
 !#include MinecraftMalwareBlocker.txt
+!#include UserBenchmarkBegone.txt
