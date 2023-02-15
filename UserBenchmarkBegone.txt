@@ -29,6 +29,3 @@ startpage.com##.image-container:has(div.image-quick-details span:has-text(userbe
 search.brave.com###results a[href*="userbenchmark.com"]:upward(.snippet)
 search.brave.com###img-results a[href*="userbenchmark.com"]:upward([id^="img"])
 search.brave.com###results a[href*="userbenchmark.com"]:upward(.card)
-
-! Hide UB on Twitter
-twitter.com##a[href="/userbenchmark"]:upward(article)
