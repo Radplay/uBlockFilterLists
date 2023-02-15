@@ -1,0 +1,29 @@
+! Title: 🖥️ UserBenchmark Begone
+! Version: 20230215
+! Expires: 3 days
+! Description: UserBenchmark is a biased website that should never be used for comparing hardware. This filter list removes all traces of it.
+! Homepage: https://github.com/Radplay/uBlockFilterLists
+! Last modified: 15 February 2023
+! License: https://www.gnu.org/licenses/gpl-3.0.html
+! Copyright © 2023 Radplay
+
+||userbenchmark.com
+
+bing.com###b_content a[href*="userbenchmark.com"]:upward(li)
+www.google.*##.g:has(a[href*="userbenchmark.com"])
+www.google.*##a[href*="userbenchmark.com"]:upward(1)
+duckduckgo.com##a[data-testid="result-title-a"][href*="userbenchmark.com"]:upward(.nrn-react-div)
+duckduckgo.com##.tile-wrap a[href*="userbenchmark.com"]:upward(.tile)
+html.duckduckgo.com##.results a.result__a[href*="userbenchmark.com"]:upward(.result)
+lite.duckduckgo.com##.result-link[href*="userbenchmark.com"]:upward(tr)
+lite.duckduckgo.com##.result-link[href*="userbenchmark.com"]:upward(tr) + tr
+lite.duckduckgo.com##.result-link[href*="userbenchmark.com"]:upward(tr) + tr + tr
+lite.duckduckgo.com##.result-link[href*="userbenchmark.com"]:upward(tr) + tr + tr + tr
+kagi.com##.search-result:has(a.__sri-url[href*="userbenchmark.com"])
+kagi.com##.sri-group:has(a.__sri-url[href*="userbenchmark.com"])
+kagi.com##._0_image_item[data-host_url*="userbenchmark.com"]
+startpage.com##.w-gl__result:has(a[href*="userbenchmark.com"])
+startpage.com##.image-container:has(div.image-quick-details span:has-text(userbenchmark.com))
+search.brave.com###results a[href*="userbenchmark.com"]:upward(.snippet)
+search.brave.com###img-results a[href*="userbenchmark.com"]:upward([id^="img"])
+search.brave.com###results a[href*="userbenchmark.com"]:upward(.card)
