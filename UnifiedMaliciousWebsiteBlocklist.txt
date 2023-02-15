@@ -6,6 +6,6 @@
 ! License: https://www.gnu.org/licenses/gpl-3.0.html
 ! Copyright © 2023 Radplay
 
+!#include UserBenchmarkBegone.txt
 !#include AndroidAntimalware.txt
 !#include MinecraftMalwareBlocker.txt
-!#include UserBenchmarkBegone.txt
