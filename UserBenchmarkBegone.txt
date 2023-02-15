@@ -7,8 +7,10 @@
 ! License: https://www.gnu.org/licenses/gpl-3.0.html
 ! Copyright © 2023 Radplay
 
+! Block the website itself
 ||userbenchmark.com
 
+! Hide UB from most search engines
 bing.com###b_content a[href*="userbenchmark.com"]:upward(li)
 www.google.*##.g:has(a[href*="userbenchmark.com"])
 www.google.*##a[href*="userbenchmark.com"]:upward(1)
@@ -27,3 +29,6 @@ startpage.com##.image-container:has(div.image-quick-details span:has-text(userbe
 search.brave.com###results a[href*="userbenchmark.com"]:upward(.snippet)
 search.brave.com###img-results a[href*="userbenchmark.com"]:upward([id^="img"])
 search.brave.com###results a[href*="userbenchmark.com"]:upward(.card)
+
+! Hide UB on Twitter
+twitter.com##a[href="/userbenchmark"]:upward(article)
