@@ -1,7 +1,7 @@
 ! Title: 🖥️ UserBenchmark Begone
 ! Version: 20230215
 ! Expires: 3 days
-! Description: UserBenchmark is a biased website that should never be used for comparing hardware. This filter list removes all traces of it.
+! Description: UserBenchmark.com is a biased website that should never be used for comparing hardware. This filter list removes all traces of it.
 ! Homepage: https://github.com/Radplay/uBlockFilterLists
 ! Last modified: 15 February 2023
 ! License: https://www.gnu.org/licenses/gpl-3.0.html
